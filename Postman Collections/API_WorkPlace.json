@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "https://petstore.swagger.io/v2/pet/8696",
-			"_postman_id": "65eaa936-e287-4b46-9cc8-d3271edfc01d",
+			"id": "65eaa936-e287-4b46-9cc8-d3271edfc01d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -29,20 +29,29 @@
 		},
 		{
 			"name": "https://petstore.swagger.io/v2/pet/8696",
-			"_postman_id": "10909401-97c2-4441-b07a-27dd475f337e",
+			"id": "10909401-97c2-4441-b07a-27dd475f337e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://petstore.swagger.io/v2/pet/8696"
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://petstore.swagger.io/v2/pet/"
 			},
 			"response": []
 		},
 		{
 			"name": "https://petstore.swagger.io/v2/pet/8696",
-			"_postman_id": "64ca74ae-7aea-4243-95f1-0b0cc30fb628",
+			"id": "64ca74ae-7aea-4243-95f1-0b0cc30fb628",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -64,7 +73,7 @@
 		},
 		{
 			"name": "https://petstore.swagger.io/v2/pet/8696 Copy",
-			"_postman_id": "359b5b2c-da96-4c84-9c13-3b82ba3f04e4",
+			"id": "359b5b2c-da96-4c84-9c13-3b82ba3f04e4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
