@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "aa82034b-abd9-426a-803a-8ff87f47f463",
+		"name": "API WORKPLACE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://petstore.swagger.io/v2/pet/8696",
+			"_postman_id": "65eaa936-e287-4b46-9cc8-d3271edfc01d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"code\": 200,\n  \"type\": \"unknown\",\n  \"message\": \"additionalMetadata: null\\nFile uploaded to ./cooccoooo.jpeg, 79584 bytes\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://petstore.swagger.io/v2/pet/8696"
+			},
+			"response": []
+		},
+		{
+			"name": "https://petstore.swagger.io/v2/pet/8696",
+			"_postman_id": "10909401-97c2-4441-b07a-27dd475f337e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://petstore.swagger.io/v2/pet/8696"
+			},
+			"response": []
+		},
+		{
+			"name": "https://petstore.swagger.io/v2/pet/8696",
+			"_postman_id": "64ca74ae-7aea-4243-95f1-0b0cc30fb628",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"code\": 8696,\n  \"type\": \"cat\",\n  \"message\": \"Hello Aliens\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://petstore.swagger.io/v2/pet/8696"
+			},
+			"response": []
+		},
+		{
+			"name": "https://petstore.swagger.io/v2/pet/8696 Copy",
+			"_postman_id": "359b5b2c-da96-4c84-9c13-3b82ba3f04e4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://petstore.swagger.io/v2/pet/8696"
+			},
+			"response": []
+		}
+	]
+}
