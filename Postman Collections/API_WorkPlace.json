@@ -96,6 +96,36 @@
 				"url": "https://restful-booker.herokuapp.com/auth"
 			},
 			"response": []
+		},
+		{
+			"name": "https://restful-booker.herokuapp.com/booking?firstname=Sally",
+			"id": "9e0d0e2f-faac-4401-9a6c-ad5ec7850f01",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restful-booker.herokuapp.com/booking?firstname=Sally",
+					"protocol": "https",
+					"host": [
+						"restful-booker",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"booking"
+					],
+					"query": [
+						{
+							"key": "firstname",
+							"value": "Sally"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
