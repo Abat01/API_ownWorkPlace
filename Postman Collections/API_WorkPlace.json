@@ -83,6 +83,19 @@
 				"url": "https://petstore.swagger.io/v2/pet/8696"
 			},
 			"response": []
+		},
+		{
+			"name": "https://restful-booker.herokuapp.com/auth",
+			"id": "da5c81be-2453-4524-bf13-49efbe603660",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "https://restful-booker.herokuapp.com/auth"
+			},
+			"response": []
 		}
 	]
 }
